@@ -20,7 +20,7 @@ public class DarkSpotDetectorGUI {
         try {
             // Load the image
             // Change the file path to the location of your image
-            BufferedImage image = ImageIO.read(new File("C:/Users/rylan/Downloads/neon.png"));
+            BufferedImage image = ImageIO.read(new File("C://Users//rylan//Downloads//Untitled design.png/"));
 
             // Detect dark spots
             List<Point> darkSpots = detectDarkSpots(image);
