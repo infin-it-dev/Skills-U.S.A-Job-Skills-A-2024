@@ -18,7 +18,7 @@ public class DarkSpotDetector {
         }
     }
 
-    public static  detectDarkSpots(BufferedImage image) {
+    public static void detectDarkSpots(BufferedImage image) {
         int width = image.getWidth();
         int height = image.getHeight();
 
