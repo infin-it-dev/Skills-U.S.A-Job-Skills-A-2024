@@ -8,7 +8,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DarkSpotDetectorGUI {
-    // ... rest of the code
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> createAndShowGUI());
@@ -20,6 +19,7 @@ public class DarkSpotDetectorGUI {
 
         try {
             // Load the image
+            // Change the file path to the location of your image
             BufferedImage image = ImageIO.read(new File("C:/Users/rylan/Downloads/neon.png"));
 
             // Detect dark spots
