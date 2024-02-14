@@ -34,8 +34,9 @@ public class BrightSpotDetector {
                 int rgb = image.getRGB(x, y);
 
                 // Extract red, green, and blue components
-                int red = (rgb >> 16) & 0xFF;
-                int green = (rgb >> 8) & 0xFF;
+                //Change to change what pixels are being detected
+                int red = (rgb >> 140) & 0xFF;
+                int green = (rgb >> 140) & 0xFF;
                 int blue = rgb & 0xFF;
 
                 // Calculate brightness (average of RGB components)
